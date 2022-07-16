@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<!--
+  Ashley Mochizuki
+  4/2/22
+  CSE154 Section AE
+  TAs: Shawn Cho and Sonia Saitawdekar
+  This is the index.html that has the scenarios and choices a player can make in a
+  "choose your own adventure" game.
+-->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="styles.css">
+  <script src="index.js"></script>
+  <title>CP2</title>
+</head>
+
+<body>
+<header>
+</header>
+<h1 id="choose-your-path">Choose your path. </h1>
+<section id="part-one">
+  <div id="scene-1">
+    <p class="scenario">
+      The room is silent except the soft taps of your favorite pen against the
+      cherry wood desk. <em>*tap, tap, tap... *</em> Out the blinds, you notice
+      the rain pouring so hard that it feels like the earth is crying. A sudden
+      shrill ring of the phone interrupts your thoughts.
+    </p>
+    <button class="choice-2">Pick up the phone</button>
+    <button class="choice-3">Ignore the phone</button>
+  </div>
+  <div id="scene-2">
+    <p class="scenario">
+      You pick up the phone and a scratchy, panicked voice greets you. For a reason
+      unbeknownst to you, a feeling of despair fills you to the brim. "I've got a
+      case for you," he shouts, panting and out of breath. Your head starts to hurt.
+      You have a premonition that something is about to go very wrong.
+    </p>
+    <button class="choice-5">Say: "What do you mean, a case?"</button>
+    <button class="choice-6">End the call</button>
+  </div>
+  <div id="scene-3">
+    <p class="scenario">
+      You let the phone keep ringing. Something deep inside you tells you that
+      you <em>need</em> to pick up the phone. Why don't I try picking up the phone?
+    </p>
+    <button class="choice-2">Pick up the phone</button>
+    <button class="choice-4">Ignore the phone</button>
+  </div>
+  <div id="scene-4">
+    <p class="scenario">
+      Minutes later, the phone stops ringing and only the sound of you tapping your pen
+      remains. <em>tap, tap, tap...</em> You close your eyes, starting to drift off
+      peacefully... when the shrill screech of the phone ringing once again blasts your
+      unsuspecting ears.
+    </p>
+    <button class="choice-2">Pick up the phone</button>
+    <button class="choice-3">Ignore the phone</button>
+  </div>
+  <div id="scene-5">
+    <p class="scenario">
+      "What do you mean, <em>"What do you mean?"</em> the voice hisses at you. "You're a
+      detective, aren't you? I want you to solve the murder case of my son."
+    </p>
+    <button class="choice-9">Accept the case</button>
+    <button class="choice-8">Decline the case</button>
+  </div>
+  <div id="scene-6">
+    <p class="scenario">
+      Your finger trembles on the *end call* button, but you can't bring yourself to press
+      the button.
+    </p>
+    <button class="choice-5">Say: "What do you mean, a case?"</button>
+    <button class="choice-7">Use all of your willpower and force yourself to end the call.</button>
+  </div>
+  <div id="scene-7">
+    <h2>[Ending 1 reached.]</h2>
+    <p class="ending">
+      The call ends, and you're left with a sense of emptiness. Was that truly the correct
+      decision, or did I make a mistake?
+    </p>
+    <button class="play-again">Play again</button>
+  </div>
+  <div id="scene-8">
+    <h2>[Ending 2 reached.]</h2>
+    <p class="ending">
+      You decline to help with the case. Without another word, the man ends the call, and you're
+      left with your own thoughts. Was that truly the correct decision, or did I make a mistake?
+    </p>
+    <button class="play-again">Play again</button>
+  </div>
+</section>
+<section id="part-two">
+  <div id="scene-9">
+    <p class="scenario">
+      You accept the case. The man breathes a sigh of relief, then suddenly goes silent.
+      Only his muffled breathing and wet footsteps can be heard from the phone. The
+      footsteps slow to a halt. "I was watched him do it," he whispers, trembling.
+      "He hit my son with a pipe, and all I could do was watch. I was too scared to move.
+      I couldn't protect my own son."
+    </p>
+    <button class="choice-10">Say: "I'm so sorry that happened... How can I help?"</button>
+    <button class="choice-11">Try to remember anything you might know about the case</button>
+  </div>
+  <div id="scene-10">
+    <p class="scenario">
+      "I know the suspect is in the area. I called you since you're the only detective that
+      works in this area. Help me find my son's murderer. Please."
+      <br>
+      You're hit with a wave of pain as your headache worsens. Are you really going to be able to
+      help solve a case of this caliber in your current state?
+    </p>
+    <button class="choice-14">Say: "Ok, I'll do everything I can to find him."</button>
+    <button class="choice-12">Say: "I'll help you in a bit; I need to
+      take care of myself.
+    </button>
+  </div>
+  <div id="scene-11">
+    <p class="scenario">
+      You think as hard as you can, but your headache starts to get worse.
+      Memories about the past hour race through your mind. Darkness, sudden
+      bright flashes, and... running for your life. You start to feel sick.
+    </p>
+    <button class="choice-14">Say: "Ok, I'll do everything I can to find him."</button>
+    <button class="choice-12">Say: "I'll help you in a bit; I need to
+      take care of myself.
+    </button>
+  </div>
+</section>
+<section id="part-three">
+  <div id="scene-12">
+    <p class="scenario">
+      You end the call to get some medications. As you get up, your foot gets
+      caught, and you fall to the ground and crumple into a pile. You start to shiver.
+    </p>
+    <button class="choice-17">Stay and wait for the pain to get better</button>
+    <button class="choice-13">Try to crawl back to the phone to ask the unknown
+      man for help
+    </button>
+  </div>
+  <div id="scene-13">
+    <p class="scenario">
+      Using all of your power, you slowly point your body back towards the phone that
+      you put down. On all fours, you crawl forward one step at a time. Your headache
+      worsens from moving, and your hand gets stuck on what you tripped on-- a rusted,
+      large metal pipe.
+    </p>
+    <button class="choice-16">Examine the pipe</button>
+    <button class="choice-17">Keep crawling back to call for help</button>
+  </div>
+  <div id="scene-14">
+    <p class="scenario">
+      "Thank you," the man whispers, and ends the call. You get up to start your
+      investigation, but crumple to the ground the second you stand up. Your
+      headache is unbearable. You start to lose consciousness.
+    </p>
+    <button class="choice-15">Try to get up again</button>
+    <button class="choice-13">Crawl towards the phone to call for help</button>
+  </div>
+  <div id="scene-15">
+    <h2>[Ending 3]</h2>
+    <p class="ending">
+      As you force yourself up again, your vision goes black. The last thing you
+      notice is the smell of copper and metal.
+    </p>
+    <button class="play-again">Play again</button>
+  </div>
+  <div id="scene-16">
+    <p class="scenario">
+      Your vision fades in and out as you examine at the pipe. A metallic smell hits your
+      senses. Is this really rust?
+    </p>
+    <button class="choice-17">Stay and wait for the pain to get better</button>
+    <button class="choice-18">Keep crawling back to call for help</button>
+  </div>
+  <div id="scene-17">
+    <h2>[Ending 4]</h2>
+    <p class="ending">
+      Your vision fades in and out, and you lose consciousness. Red lights, blue lights,
+      and now, just pure darkness. You lose consciousness forever.
+    </p>
+    <button class="play-again">Play again</button>
+  </div>
+  <div id="scene-18">
+    <p class="scenario">
+      You use the last of your energy to get back to the phone.
+    </p>
+    <button class="choice-19">Call the hospital</button>
+    <button class="choice-20">Call the unknown man</button>
+  </div>
+  <div id="scene-19">
+    <h2>[Ending 5]</h2>
+    <p class="ending">
+      You choose to call the hospital. You get medical help and survive. The unknown man
+      never calls you again.
+    </p>
+    <button class="play-again">Play again</button>
+  </div>
+  <div id="scene-20">
+    <p class="scenario">
+      You choose to call the unknown man. You tell him about your headache, but he
+      responds through gritted teeth, "A headache?"
+    </p>
+    <button class="choice-22">Say: "Yes, why are you so worked up?"</button>
+    <button class="choice-21">End the call</button>
+  </div>
+  <div id="scene-21">
+    <h2>[Ending 6]</h2>
+    <p class="ending">
+      You end the call, and your headache gets worse. You fade in and out of consciousness,
+      and slump to the ground, never to wake up again.
+    </p>
+    <button class="play-again">Play again</button>
+  </div>
+  <div id="scene-22">
+    <h2>[Ending 7]</h2>
+    <p class="ending">
+      "You killed him." The man hangs up without another word.
+    </p>
+    <button class="play-again">Play again</button>
+  </div>
+</section>
+</body>
+</html>

@@ -1,0 +1,62 @@
+/*
+  Ashley Mochizuki
+  4/2/22
+  CSE154 Section AE
+  TAs: Shawn Cho and Sonia Saitawdekar
+  This is the styles.css page that is used to make my site. It features an ominous
+  color scheme.
+*/
+
+body {
+  background-color: #0A0A00;
+  color: #EBE8E0;
+  font-family: "Courier New", monospace;
+  font-size: 32px;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+button {
+  background-color: #A8BBB0;
+  border: none;
+  padding: 32px 48px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-decoration: none;
+  margin: 0.5em;
+  font-family: "Courier New", monospace;
+  font-size: 32px;
+}
+
+button:hover {
+  background-color: #488948;
+}
+
+#scene-2,
+#scene-3,
+#scene-4,
+#scene-5,
+#scene-6,
+#scene-7,
+#scene-8,
+#scene-9,
+#scene-10,
+#scene-11,
+#scene-12,
+#scene-13,
+#scene-14,
+#scene-15,
+#scene-16,
+#scene-17,
+#scene-18,
+#scene-19,
+#scene-20,
+#scene-21,
+#scene-22 {
+  display: none;
+}
+
+.finishedGame {
+  color: #831e1e;
+}
